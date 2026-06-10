@@ -1,6 +1,6 @@
 import { createClient } from '@/lib/supabase/server'
 import { redirect, notFound } from 'next/navigation'
-import RoadmapClient from './RoadmapClient'
+import RoadmapClient from '../roadmap/RoadmapClient'
 import Link from 'next/link'
 import { ArrowLeft } from 'lucide-react'
 
